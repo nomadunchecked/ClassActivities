@@ -1,4 +1,4 @@
-let age = 49;
+let age = 16;
 
 // Write an If Else statement
 // if age is greater than or equal to 25,
