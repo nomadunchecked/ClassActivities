@@ -7,13 +7,14 @@ let dayName = `Today`;
 // Complete this switch case statement to produce the correct results please.
 
 switch (day) {
-  case 3:
+  case 3: {
     dayName = `Today is Wednesday`;
     break;
-  case 1:
+  }
+  case 1: {
     dayName = `Today is Monday`;
     break;
-}
+  }
   // Note the code blocks in the next 2 cases: Why?
   case 4: {
     const message = `Tursday`;
@@ -25,19 +26,21 @@ switch (day) {
     console.log(message);
     break;
   }
-  default:
-    console.log("It' the end of the workl, as weknow it");
+  default: {
+    console.log("It' the end of the world, as weknow it.");
     break;
-  case 2:{
+  }
+  case 2: {
     console.log(`Today is Tuesday`);
     break;
   }
   // write a case here for the weekend (how many days in the weekend?)
 
-    case 6 || 0: 
+  case 6 || 0: {
     alert(`It's the Weekend !!`);
+  }
 }
+
 if (dayName !== `Today`) {
   console.log(dayName);
-};
-
+}
