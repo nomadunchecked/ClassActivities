@@ -1,7 +1,13 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-vars */
-const list = document.getElementById("class-schedule-list");
-console.log(list);
+// const list = document.getElementById("class-schedule-list");
+// console.log(list);
+document.getElementById("class-schedule-list");
+
+// creating new paragraph
+const newParagraph = document.createElement("p");
+// append the new element as the last child element to 'main'
+document.querySelector("h2").appendChild(newParagraph);
 
 // const ordered = list.children;
 // console.log(ordered);
